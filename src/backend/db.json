@@ -1,0 +1,224 @@
+{
+  "carros": [
+    {
+      "id": "1",
+      "marca": "Fiat",
+      "nomeCarro": "Pulse",
+      "detalhe": "Pulse 1.3 Drive (Aut) automático",
+      "ehAutomatico": true,
+      "ehFavorito": true,
+      "preco": 96390,
+      "linkLoja": "https://seminovos.localiza.com/carros/fiat/pulse",
+      "localVenda": "São Paulo, SP",
+      "ano": "2023/2024",
+      "kmsRodados": "43.725",
+      "fotoCarro": "https://http2.mlstatic.com/D_NQ_NP_714373-MLA80445718417_112024-B.webp",
+      "vendedor": {
+        "idCarro": 1,
+        "nome": "Alessandro Lira",
+        "telefone": "(13) 99735-1242",
+        "email": "ale.lira@gmail.com",
+        "genero": "M",
+        "corDaPele": "light"
+      }
+    },
+    {
+      "id": "2",
+      "marca": "Chevrolet",
+      "nomeCarro": "Onix",
+      "detalhe": "Onix 1.0 Turbo LT (Aut) automático",
+      "ehAutomatico": true,
+      "ehFavorito": true,
+      "preco": 88500,
+      "linkLoja": "https://seminovos.localiza.com/carros/chevrolet/onix",
+      "localVenda": "Belo Horizonte, MG",
+      "ano": "2022/2023",
+      "kmsRodados": "35.120",
+      "fotoCarro": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2024/11/18/chevrolet-onix-premier-2025-trwdtgcmrb5h.jpg",
+      "vendedor": {
+        "idCarro": 2,
+        "nome": "Roberta Oliveira",
+        "telefone": "(31) 99998-2345",
+        "email": "roberta.oliveira@gmail.com",
+        "genero": "F",
+        "corDaPele": "mediumLight"
+      }
+    },
+    {
+      "id": "3",
+      "marca": "Volkswagen",
+      "nomeCarro": "T-Cross",
+      "detalhe": "T-Cross 1.4 TSI Highline (Aut) automático",
+      "ehAutomatico": false,
+      "ehFavorito": true,
+      "preco": 123900,
+      "linkLoja": "https://seminovos.localiza.com/carros/volkswagen/t-cross",
+      "localVenda": "Rio de Janeiro, RJ",
+      "ano": "2021/2022",
+      "kmsRodados": "50.650",
+      "fotoCarro": "https://cdn.motor1.com/images/mgl/6Zovvb/s3/en-el-garage-vw-t-cross-2025.jpg",
+      "vendedor": {
+        "idCarro": 3,
+        "nome": "Carlos Silva",
+        "telefone": "(21) 99876-5432",
+        "email": "carlos.silva@gmail.com",
+        "genero": "M",
+        "corDaPele": "medium"
+      }
+    },
+    {
+      "id": "4",
+      "marca": "Toyota",
+      "nomeCarro": "Corolla",
+      "detalhe": "Corolla 2.0 Altis Premium (Aut) automático",
+      "ehAutomatico": false,
+      "ehFavorito": true,
+      "preco": 150800,
+      "linkLoja": "https://seminovos.localiza.com/carros/toyota/corolla",
+      "localVenda": "Curitiba, PR",
+      "ano": "2020/2021",
+      "kmsRodados": "65.320",
+      "fotoCarro": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Cv16OhNFEWN_rwQk3dZSycQkuA5aPvDlww&s",
+      "vendedor": {
+        "idCarro": 4,
+        "nome": "Felipe Rocha",
+        "telefone": "(41) 98765-4321",
+        "email": "felipe.rocha@gmail.com",
+        "genero": "M",
+        "corDaPele": "medium-dark"
+      }
+    },
+    {
+      "id": "5",
+      "marca": "Renault",
+      "nomeCarro": "Kwid",
+      "detalhe": "Kwid 1.0 Zen (MT) manual",
+      "ehAutomatico": false,
+      "ehFavorito": false,
+      "preco": 64900,
+      "linkLoja": "https://seminovos.localiza.com/carros/renault/kwid",
+      "localVenda": "Porto Alegre, RS",
+      "ano": "2023/2024",
+      "kmsRodados": "10.500",
+      "fotoCarro": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4OvfbVvZEbmJdeJ_w5badWSuu1yRAckKc3g&s",
+      "vendedor": {
+        "idCarro": 5,
+        "nome": "Mariana Souza",
+        "telefone": "(51) 98765-4321",
+        "email": "mariana.souza@gmail.com",
+        "genero": "F",
+        "corDaPele": "medium"
+      }
+    },
+    {
+      "id": "6",
+      "marca": "Honda",
+      "nomeCarro": "HR-V",
+      "detalhe": "HR-V 1.5 Touring (Aut) automático",
+      "ehAutomatico": false,
+      "ehFavorito": true,
+      "preco": 159800,
+      "linkLoja": "https://seminovos.localiza.com/carros/honda/hr-v",
+      "localVenda": "Florianópolis, SC",
+      "ano": "2022/2023",
+      "kmsRodados": "22.300",
+      "fotoCarro": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK0FVd1zdTp0OgoZxgcvcPe_ykCdCIEdWnrQ&s",
+      "vendedor": {
+        "idCarro": 6,
+        "nome": "Daniel Costa",
+        "telefone": "(48) 99987-6543",
+        "email": "daniel.costa@gmail.com",
+        "genero": "M",
+        "corDaPele": "dark"
+      }
+    },
+    {
+      "id": "7",
+      "marca": "Ford",
+      "nomeCarro": "EcoSport",
+      "detalhe": "EcoSport 1.5 Titanium (Aut) automático",
+      "ehAutomatico": false,
+      "ehFavorito": true,
+      "preco": 95700,
+      "linkLoja": "https://seminovos.localiza.com/carros/ford/ecosport",
+      "localVenda": "Goiânia, GO",
+      "ano": "2021/2022",
+      "kmsRodados": "48.900",
+      "fotoCarro": "https://quatrorodas.abril.com.br/wp-content/uploads/2024/01/Ford-EcoSport-automatico-usado-preco-versao-equipamentos-8.jpg?quality=70&strip=info",
+      "vendedor": {
+        "idCarro": 7,
+        "nome": "Renato Alves",
+        "telefone": "(62) 99654-3210",
+        "email": "renato.alves@gmail.com",
+        "genero": "M",
+        "corDaPele": "medium-dark"
+      }
+    },
+    {
+      "id": "8",
+      "marca": "Jeep",
+      "nomeCarro": " Renegade",
+      "detalhe": "Renegade 1.3 T270 Longitude (Aut) automático",
+      "ehAutomatico": false,
+      "ehFavorito": false,
+      "preco": 134900,
+      "linkLoja": "https://seminovos.localiza.com/carros/jeep/renegade",
+      "localVenda": "Salvador, BA",
+      "ano": "2023/2024",
+      "kmsRodados": "15.200",
+      "fotoCarro": "https://cdn.motor1.com/images/mgl/P3WgxX/s3/jeep-renegade-1.3-turbo-2023.jpg",
+      "vendedor": {
+        "idCarro": 8,
+        "nome": "Larissa Santos",
+        "telefone": "(71) 99876-5432",
+        "email": "larissa.santos@gmail.com",
+        "genero": "F",
+        "corDaPele": "light"
+      }
+    },
+    {
+      "id": "9",
+      "marca": "Hyundai",
+      "nomeCarro": "Creta",
+      "detalhe": "Creta 2.0 Ultimate (Aut) automático",
+      "ehAutomatico": false,
+      "ehFavorito": true,
+      "preco": 147900,
+      "linkLoja": "https://seminovos.localiza.com/carros/hyundai/creta",
+      "localVenda": "Fortaleza, CE",
+      "ano": "2022/2023",
+      "kmsRodados": "30.750",
+      "fotoCarro": "https://uploads.automaistv.com.br/2024/10/3Vxj9C1A-5-Novo-Hyundai-Creta-Ultimate_edited-scaled.webp",
+      "vendedor": {
+        "idCarro": 9,
+        "nome": "Fernanda Lima",
+        "telefone": "(85) 99999-8765",
+        "email": "fernanda.lima@gmail.com",
+        "genero": "F",
+        "corDaPele": "mediumLight"
+      }
+    },
+    {
+      "id": "10",
+      "marca": "Nissan",
+      "nomeCarro": "Kicks",
+      "detalhe": "Kicks 1.6 SV (Aut) automático",
+      "ehAutomatico": false,
+      "ehFavorito": false,
+      "preco": 112400,
+      "linkLoja": "https://seminovos.localiza.com/carros/nissan/kicks",
+      "localVenda": "Manaus, AM",
+      "ano": "2021/2022",
+      "kmsRodados": "42.890",
+      "fotoCarro": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPlBmqcvEtKqstTKHSLEy3t88Jn1D_CHbaAA&s",
+      "vendedor": {
+        "idCarro": 10,
+        "nome": "José Pereira",
+        "telefone": "(92) 99999-1234",
+        "email": "jose.pereira@gmail.com",
+        "genero": "M",
+        "corDaPele": "medium"
+      }
+    }
+  ]
+}
