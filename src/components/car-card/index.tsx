@@ -13,6 +13,7 @@ import {
   Informations,
 } from "./styles";
 import { useCarros } from "../../context/CarrosContext";
+import { heartBlack, heartWhite } from "../../constantes/image";
 
 export default function CarCard({ carro }: ICarros) {
   const { setOpenModal, setIdCarro, favoritarCarro } = useCarros();  
@@ -24,8 +25,6 @@ export default function CarCard({ carro }: ICarros) {
 
   function favoritar(carroId: string){
     favoritarCarro(carroId)
-    console.log(carroId, 'carroId')
-    console.log('aaa')
   }
 
   return (
@@ -46,8 +45,8 @@ export default function CarCard({ carro }: ICarros) {
           <HeartIcon
             src={
               carro.ehFavorito
-                ? "https://cdn-icons-png.flaticon.com/512/1077/1077086.png"
-                : "https://cdn-icons-png.flaticon.com/512/1077/1077035.png"
+                ? heartBlack
+                : heartWhite
             }
             onClick={() => favoritar(carro.id)}
             alt={carro.ehFavorito ? "Favorito" : "Não favorito"}

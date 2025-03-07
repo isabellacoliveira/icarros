@@ -61,14 +61,18 @@ export function CarrosProvider({ children }: CarrosProviderProps) {
         )
       );
   
-      console.log(`Carro com ID ${carroId} atualizado como favorito: ${carroAtualizado.ehFavorito}`);
     } catch (erro) {
       console.error("Erro ao favoritar o carro:", erro);
     }
   }
   
-  
-
+  function atualizarCarrosNoEstado(carroAtualizado: ICarro) {
+    setTodosOsCarros((carrosAnteriores) =>
+      carrosAnteriores.map((c) =>
+        c.id === carroAtualizado.id ? carroAtualizado : c
+      )
+    );
+  }
   return (
     <CarrosContext.Provider
       value={{
@@ -81,7 +85,7 @@ export function CarrosProvider({ children }: CarrosProviderProps) {
         setOpenModal, 
         idCarro, 
         setIdCarro,
-        favoritarCarro
+        favoritarCarro,
       }}
     >
       {children}

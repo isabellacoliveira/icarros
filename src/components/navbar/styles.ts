@@ -59,4 +59,18 @@ export const SearchButton = styled.button`
   color: #28a745;
 `;
 
+export const FavoriteButton = styled.button`
+  margin: 5px 0;
+  border: 1px solid #28a745;
+  color: #28a745;
+  margin-left: 20px;
+`;
+
+export const HomeButton = styled.button`
+  margin: 5px 0;
+  border: 1px solid #28a745;
+  color: #28a745;
+  margin-left: 20px;
+`;
+
 
