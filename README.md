@@ -2,6 +2,8 @@
 
 Este projeto consiste em uma página desenvolvida com React, onde os veículos são exibidos em uma lista, permitindo ao usuário buscar por marca, visualizar detalhes do vendedor e favoritar veículos. A solução utiliza um arquivo JSON para simular a resposta de uma API, e é projetada de maneira reativa.
 
+![SISTEMA](./assets/icarros.gif)
+
 ## Funcionalidades
 
 ### 1. **Busca de Veículos**
